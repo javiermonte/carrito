@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="paneto´sbakery" content="width=device-width, initial-scale=1.0">
+    <title>Paneto´s Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Paneto´s Bakery</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="products">
+            <h2>Nuestros productos productos</h2>
+            <div class="product">
+                <img src="img\alfajores.jpg" alt="alfajores 1">
+                <h3>Alfajores</h3>
+                <p>Deliciosa galleta rellena con arequipe y cubertura de chocolate.</p>
+                <p>Precio: $4990</p>
+                <button class="add-to-cart" data-name="Alfajores" data-price="4990">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img\blondies.jpeg" alt="Blondies 2">
+                <h3>Blondies</h3>
+                <p>Deliciosos brownies de chocolate clanco.</p>
+                <p>Precio: $5000</p>
+                <button class="add-to-cart" data-name="Blondie" data-price="5000">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img\brwonies.jpeg" alt="Brownies 3">
+                <h3>Brownies</h3>
+                <p>Deliciosos brownies de chocolate semi amargo.</p>
+                <p>Precio: $5000</p>
+                <button class="add-to-cart" data-name="Brownies" data-price="5000">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img\cookies.jpeg" alt="Galletas 4">
+                <h3>Galletas con chocolate</h3>
+                <p>Deliciosas Galletas con chocolate y Nutella.</p>
+                <p>Precio: $5000</p>
+                <button class="add-to-cart" data-name="Galletas con chocolate" data-price="5000">Añadir al
+                    carrito</button>
+            </div>
+            <div class="product">
+                <img src="img\mini_cakes.jpeg" alt="Minitirtas 5">
+                <h3>Mini tortas</h3>
+                <p>Tortas tamaño mini para toda ocacion .</p>
+                <p>Precio: $18500</p>
+                <button class="add-to-cart" data-name="Minitortas" data-price="18500">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img\minicookies.jpg" alt="Minicookies 6">
+                <h3>Mini Galletitas</h3>
+                <p>Galletitas surtidas de tamaño mini para toda ocacion.</p>
+                <p>Precio: $5000</p>
+                <button class="add-to-cart" data-name="Minicookies" data-price="5000">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img\panarabe.jpg" alt="Pan arabe 7">
+                <h3>Pan arabe</h3>
+                <p>pan arabe con la receta original.</p>
+                <p>Precio: $5000</p>
+                <button class="add-to-cart" data-name="pan arabe" data-price="5000">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img\panfrances.jpg" alt="Pan 8">
+                <h3>Pan Francés</h3>
+                <p>Pan frnscés 100% artesanal suabe y decilioso.</p>
+                <p>Precio: $5000</p>
+                <button class="add-to-cart" data-name="Pan Francés" data-price="5000">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img\rolldecanela.jpg" alt="Roll de canela 9">
+                <h3>Roll de canela</h3>
+                <p>Deliciosos roll de canela para acompañar un buen café..</p>
+                <p>Precio: $4000</p>
+                <button class="add-to-cart" data-name="Roll de canela" data-price="4000">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="carritocompras">
+            <button>
+                <div class="cart">
+                    <img src="icons8-carrito-de-compras-32.png" alt="carrito">
+                    <div id="cart-items"></div>
+                    <div class="cart-total">
+                        <p>Subtotal: <span id="subtotal">0.00</span></p>
+                        <p>Total: <span id="total">0.00</span></p>
+                        <button id="clear-cart"><img src="icons8-basura-24.png" alt=""></button>
+                    </div>
+
+                </div>
+            </button>
+        </div>
+
+    </div>
+
+    <script src="panaderia.js"></script>
+</body>
+
+<footer>
+        <div class="container">
+            <div class="footer-column1">
+                <h3> Contactanos</h3>
+                <p>Dirección: calle 5a # 3 - 21 </p>
+                <p>Teléfono: 300 515 1543</p>
+                <p>Email: panetobakery@gmail.com </p>
+            </div>
+            <div class="footer-column2">
+                <h3> Horario de Atención </h3>
+                <p> Lunes a Viernes: 8:00 AM - 5:00 PM </p>
+                <p> Sábados y Domingos: 10:00 AM - 3:00 PM </p>
+            </div>
+            <div class="footer-column">
+                <h3> Síguenos en: </h3>
+                <ul>
+                    <li><a href="#">Fb</a></li>
+                    <li><a href="#">Ing</a></li>
+                    <li><a href="#">Twit</a></li>
+                </ul>
+            </div>
+        </div>
+</footer>
+
+</html>
